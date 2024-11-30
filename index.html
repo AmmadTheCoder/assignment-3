@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No. 1</title>
+    <style>                                 /* This is internal CSS */
+     h2{                                    /* this is tag selector */
+        text-align: center;
+        color: red;
+        background-color:aqua  ;
+     }
+     .heading{                             /* this is class selector */
+        color: blue;
+     }
+     #ul1{                                 /* this is id selector */
+        list-style: square;
+        color: green;
+     }
+    </style>
+    <link rel="stylesheet" href="assignment 1.css">         <!--This link is for external CSS-->
+    <body>
+        <h1 style="text-align: center; background-color:black  ; color: white;"> <!-- this is inline css -->
+            Welcome to the CSS Basic Assignment 01 - WMA B08
+        </h1>
+        <h2>
+            Introduction to Core HTML Tags:
+        </h2>
+        <h3 class="heading">
+            Learning Links, Text Formatting, and Links
+        </h3>
+        <p class="para">
+            This paragraph demonstrates the usage of text formatting tags. You can <b>bold,</b> <i>italics,</i> and
+            <u>underline</u> for text emphasis.
+        </p>
+        <p class="para">  
+            This is the first line. <br>
+            This is the second line after break. <br>
+            This is the third line.
+        </p>
+        <hr/>
+        <h3 class="heading">
+            Unodered List of Web Technologies
+        </h3>
+        <ul id="ul1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h3 class="heading">
+            Steps to Create a Web Page
+        </h3>
+        <ol>
+            <li>Open a text editor</li>
+            <li>Write HTML code</li>
+            <li>Save a file with.Html extension</li>
+            <li>Open it in a browser</li>
+        </ol>
+        <table id="table" border="2px">
+            <thead>
+                <tr>
+                    <th colspan="3">Food Catagories</th>
+                </tr>
+            </thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th>Fruits</th>
+                    <th>Vegetables</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Apples</td>
+                    <td>Carrots</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Oranges</td>
+                    <td>Spinach</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>3</td>
+                    <td>Bananas</td>
+                    <td>Broccoli</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr/>
+        <form action="">
+            <br><h3 style="text-align: center;">Form for CSS Assignment-1</h3><br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" placeholder="First Name" required> 
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Last Name" required> <br> <br>
+            <label for="email">E-Mail:</label>
+            <input type="email"  id="email" placeholder="E-Mail" required style="margin-left: 30px;">
+            <label for="password">Password:</label>
+            <input type="email"  id="password" placeholder="Password" required style="margin-left: 6px;"><br> <br>
+            <label for="contact">Contact No.</label>
+            <input type="number" id="contact" placeholder="Contact No" required>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" required> <br> <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" required>Male
+            <input type="radio" name="gender" id="gender" required>Female 
+            <select  required style="margin-left: 100px;">
+                <option>Select the Course</option>
+                <option value="WMA">Web and Mobile App Developmant</option>
+                <option value="Graphic">Graphic Designing</option>
+                <option value="Freelancing">Freelancing</option>
+            </select> <br> <br>
+            <input class="button" type="submit">
+            <input  type="reset" >
+        </form>
+        <hr/>
+        <p class="p2">
+            End of the Assignment. <br>
+            Happy Coding!
+        </p>
+    </body>
+</html>
